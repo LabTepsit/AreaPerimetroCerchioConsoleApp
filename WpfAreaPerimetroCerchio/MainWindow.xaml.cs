@@ -36,7 +36,7 @@ namespace WpfAreaPerimetroCerchio
 
             HttpClient client = new HttpClient();
 
-            //https://localhost:44327/api/Operations/GetArea?raggio=1
+          
             string urlArea = $"https://localhost:44327/api/Operations/GetArea?raggio={raggio}";
             //string urlPerimeter = "https://localhost:44327/api/Operations/GetPerimeter?raggio={raggio}";
 
